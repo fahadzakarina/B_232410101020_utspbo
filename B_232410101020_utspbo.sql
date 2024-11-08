@@ -1,0 +1,6 @@
+CREATE TABLE admin (
+	id SERIAL PRIMARY KEY,
+	judul VARCHAR(100),
+	skripsi VARCHAR(100) UNIQUE,
+	deadline VARCHAR(15)
+);
